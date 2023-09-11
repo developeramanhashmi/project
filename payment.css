@@ -1,0 +1,141 @@
+body 
+    {
+        margin: 0%;
+    }
+.heading
+    {
+        text-align: center;
+        background-color: #000000;
+        margin: 0%;
+        height: 50px;
+        color: yellow;
+    }
+.container1st
+    {
+        width: 80%;
+        height: 150px;
+        top: 20%;
+        left: 35%;
+        position: absolute;
+        transform : translate(-30%, -30%);
+        display: flex;
+        justify-content: center;
+        /* align-items: self-start; */
+
+    }
+.img-visa
+    {
+        height: 40px;
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 15px;
+        border-radius: 20px;
+
+    }
+.paragraph 
+    {
+        margin-left: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+.paragraph-1
+    {
+        margin-left: 15px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+.containerforvisa
+    {
+        width: 30%;
+        background-color: white;
+        border: 2px solid red;
+        border-radius: 10px;
+        margin: 8px;
+
+    }
+.container2nd
+    {
+        background-color: white;
+        width: 75%;
+        height: 400px;
+        top: 55%;
+        left: 36%;
+        position: absolute;
+        transform : translate(-30%, -30%);
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+.heading-2
+    {
+        color: rgb(3, 3, 3);
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 0%;
+        font-family: algerian;
+    }
+.options
+    {
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+.options-2
+    {
+        background-color: rgb(162, 162, 162);
+        padding-left: 4px;
+        font-family: arial;
+        font: bold;
+        
+    }
+.summary
+    {
+        margin: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+.option-3
+    {
+        margin-top: 2px;
+        margin-bottom: 0%;
+    }
+.summary-2
+    {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+.summary-3
+    {
+        width: 50%;
+        margin: 0%;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+#name 
+    {
+        width: 70%;
+        height: 25px;
+        margin-left: 10px;
+    }
+#month
+    {
+        width: 70%;
+        height: 25px;
+        margin-left: 10px;
+    }
+#cardno
+    {
+        width: 70%;
+        height: 25px;
+        margin-left: 10px;
+    }
+#submitbutton
+    {
+        width: 90%;
+        text-align: center;
+        margin-left: 25px;
+        background-color: bisque;
+    }
+#submitbutton:hover{background-color: yellow;}
